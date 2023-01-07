@@ -30,7 +30,7 @@ body{
 }
 .secondary-link{
     padding: 0.5rem 1rem;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     border-radius: 0.5rem;
     text-decoration: none;
     color: rgb(53, 53, 53);
