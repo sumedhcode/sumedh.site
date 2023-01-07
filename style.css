@@ -36,3 +36,18 @@ body{
     text-decoration: none;
     color: rgb(53, 53, 53);
 }
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+}
+.navigation .link{
+    color: white;
+}
