@@ -45,9 +45,19 @@ body{
     display:inline;
     padding: 0rem 0.5rem;
 }
+.nav-brand{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
 .navigation{
     background-color: var(--primary-color);
+    text-align: right;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
+
 .navigation .link{
     color: white;
+    text-decoration: none;
 }
