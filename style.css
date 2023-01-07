@@ -1,9 +1,14 @@
+html{
+    --primary-color: rgb(224, 32, 70);
+}
+
 body{
     color: rebeccapurple;
 }
 .para {
     color: blueviolet;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
@@ -15,4 +20,18 @@ body{
 .container-centre{
     max-width: 600px;
     margin: auto;
+}
+
+.primary-link{
+       padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.secondary-link{
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: rgb(53, 53, 53);
 }
