@@ -2,6 +2,7 @@ html{
     --primary-color: rgb(224, 32, 70);
 }
 
+
 body{
     color: rebeccapurple;
 }
@@ -10,6 +11,9 @@ body{
     margin: auto;
     max-width: 600px
     
+}
+.hero{
+    text-align: center
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
